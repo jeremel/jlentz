@@ -6,8 +6,9 @@ import styled from "styled-components"
 const HeaderWrapper = styled.div`
   margin: 0;
   padding: .05rem;
-  /* height: 13vh; */
-  background: salmon;
+  width: 100vw;
+  width: 100%;
+  background: aquamarine;
   margin-bottom: 1.45rem;
 `
 const HeaderContainer = styled.div`
@@ -17,9 +18,10 @@ const HeaderContainer = styled.div`
 
   h1 {
     font-size: 2.5rem;
+    text-transform: uppercase;
 
     a {
-      color: white;
+      color: salmon;
       text-decoration: none;
     }
   }
@@ -30,17 +32,18 @@ const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     font-size: 1.15rem;
+    text-transform: uppercase;
 
     li {
       padding-left: 1.1rem;
 
       a {
-        color: white;
+        color: salmon;
         text-decoration: none;
       }
 
       a:hover {
-        color: lightgrey;
+        color: whitesmoke;
       }
     }
   }
