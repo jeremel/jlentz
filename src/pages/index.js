@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import styled from "styled-components"
-// import IndexImage from "../images/image-20.jpg"
 
 const IndexWrapper = styled.div`
   margin: 0;

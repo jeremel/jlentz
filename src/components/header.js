@@ -8,7 +8,7 @@ const HeaderWrapper = styled.div`
   padding: .05rem;
   width: 100vw;
   width: 100%;
-  background: aquamarine;
+  background: whitesmoke;
   margin-bottom: 1.45rem;
 `
 const HeaderContainer = styled.div`
@@ -43,7 +43,7 @@ const HeaderContainer = styled.div`
       }
 
       a:hover {
-        color: whitesmoke;
+        color: blue;
       }
     }
   }
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => (
         <li><Link to='/about/'>About</Link></li>
         <li><Link to='#'>Web Development</Link></li>
         <li><Link to='#'>Consulting</Link></li>
-        <li><Link to='#'>Photography</Link></li>
+        <li><Link to='/photography/'>Photography</Link></li>
       </ul>
     </HeaderContainer>
   </HeaderWrapper>
