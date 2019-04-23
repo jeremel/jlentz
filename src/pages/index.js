@@ -15,7 +15,8 @@ const IndexWrapper = styled.div`
 `
 const ServicesWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: .55rem;
 `
 

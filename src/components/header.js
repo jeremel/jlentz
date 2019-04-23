@@ -14,6 +14,7 @@ const HeaderWrapper = styled.div`
 const HeaderContainer = styled.div`
   padding: 0 1.5rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   h1 {
@@ -30,6 +31,7 @@ const HeaderContainer = styled.div`
     list-style: none;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 1.15rem;
     text-transform: uppercase;
