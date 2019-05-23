@@ -36,25 +36,42 @@ const ConsultingWrapper = styled.div`
       padding-bottom: 0.5rem;
     }
   }
+
+  @media (max-width: 700px) {
+    padding: 0 1rem;
+    
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      padding-left: 1rem;
+    }
+
+    img {
+       max-width(50%);
+    }
+  }
 `
 
 const Consulting = () => (
   <Layout>
-    <SEO title="Consulting" />
-    <ConsultingWrapper>
+    <SEO title="Consulting" keywords={[`Consulting`, `Small Business`, `Mid size`, `New Jersey`, `South Jersey`, `Web Development`, `Web Developer`, `Business Analysis`, `Accounting`, `Philadelphia`, `Philly`]} />
+    <ConsultingWrapper> 
       <h1>Consulting Services</h1>
       <img src={ConsultingImage} alt="Jereme Lentz Consulting" />
-      <p>Providing consulting services for your small business including:</p>
+      <p>Providing consulting services for your small to mid-size business including:</p>
       <ul>
         <li>Accounting systems review</li>
+        <li>Financial Statements Review and Analysis</li>
         <li>Business Strategy</li>
-        <li>Full-Scale Business Analysis</li>
+        <li>Full-scale top to bottom Business Analysis</li>
         <li>Data Analytics</li>
         <li>Financing Opportunities</li>
         <li>Market Analysis</li>
         <li>Administrative Controls Analysis</li>
       </ul>
-      <p>Contact me at jerlentz@gmail.com to see how I can help</p>
+      <p>Contact me at jerlentz@gmail.com for more information</p>
     </ConsultingWrapper>
   </Layout>
 )
