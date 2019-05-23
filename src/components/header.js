@@ -61,8 +61,8 @@ const Header = ({ siteTitle }) => (
       </h1>
       <ul>
         <li><Link to='/about/'>About</Link></li>
-        <li><Link to='#'>Web Development</Link></li>
-        <li><Link to='#'>Consulting</Link></li>
+        <li><Link to='/consulting/'>Consulting</Link></li>
+        <li><Link to='/webdevelopment/'>Web Development</Link></li>
         <li><Link to='/photography/'>Photography</Link></li>
       </ul>
     </HeaderContainer>

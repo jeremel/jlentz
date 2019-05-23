@@ -12,6 +12,16 @@ const IndexWrapper = styled.div`
   height: 73.5vh;
   display: flex;
   flex-direction: column;
+
+  a {
+    text-decoration: none;
+    color: tomato;
+    font-size: 2.65rem;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+  }
 `
 const ServicesWrapper = styled.div`
   display: grid;
@@ -23,13 +33,12 @@ const ServicesWrapper = styled.div`
 const ServicesItem = styled.div`
   margin: 0;
   border: 1px solid grey;
-  border-radius: 0.625rem;
   justify-content: space-around;
   
   h1 {
     padding: .75rem;
     margin: 0;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     color: black;
     text-align: center;
   } 
@@ -37,7 +46,7 @@ const ServicesItem = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`Web Development`, `Consulting`, `Photography`, `Jereme Lentz`]} />
+    <SEO title="Home" keywords={[ `Jereme Lentz `, `Web Development`, `Consulting`, `Photography`, `New Jersey`, `South Jersey`]} />
     <IndexWrapper>
       <ServicesWrapper>
         <ServicesItem>
@@ -50,11 +59,11 @@ const IndexPage = () => (
           <h1>Photographry</h1>
         </ServicesItem>
       </ServicesWrapper>
-      <p>I'm still working on this!</p>
+      <h1>Web Developer and Small Business Consultant based in Southern New Jersey</h1>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-      <Link to="/about/">Read more about me</Link>
+      <Link to="/about/">Click here to learn more about me and the services I offer</Link>
     </IndexWrapper>
   </Layout>
 )
