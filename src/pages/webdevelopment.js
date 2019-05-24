@@ -28,7 +28,7 @@ const WebDevWrapper = styled.div`
 
 const WebDevelopment = () => (
   <Layout>
-    <SEO title="Web Development" keywords={[`Web Development`, `Web Apps`, `Websites`, `Custom`, `South Jersey`, `New Jersey`, `Philadelphia`, `Philly`]} />
+    <SEO title="Web Development" description="Jereme Lentz Web Development" keywords={[`Web Development`, `Web Apps`, `Websites`, `Custom`, `South Jersey`, `New Jersey`, `Philadelphia`, `Philly`]} />
     <WebDevWrapper>
       <h1>Web Development</h1>
       <p>Building fast, performant, custom websites and web applications using modern technologies</p>

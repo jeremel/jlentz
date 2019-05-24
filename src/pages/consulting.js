@@ -56,7 +56,7 @@ const ConsultingWrapper = styled.div`
 
 const Consulting = () => (
   <Layout>
-    <SEO title="Consulting" keywords={[`Consulting`, `Small Business`, `Mid size`, `New Jersey`, `South Jersey`, `Web Development`, `Web Developer`, `Business Analysis`, `Accounting`, `Philadelphia`, `Philly`]} />
+    <SEO title="Consulting" description="Jereme Lentz Small Business Consulting Services" keywords={[`Consulting`, `Small Business`, `Mid size`, `New Jersey`, `South Jersey`, `Web Development`, `Web Developer`, `Business Analysis`, `Accounting`, `Philadelphia`, `Philly`]} />
     <ConsultingWrapper> 
       <h1>Consulting Services</h1>
       <img src={ConsultingImage} alt="Jereme Lentz Consulting" />

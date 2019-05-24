@@ -16,11 +16,13 @@ const IndexWrapper = styled.div`
   a {
     text-decoration: none;
     color: tomato;
-    font-size: 2.65rem;
+    font-size: 2.25rem;
+    text-align: center;
   }
 
   h1 {
-    font-size: 1.65rem;
+    font-size: 1.35rem;
+    text-align: center;
   }
 `
 const ServicesWrapper = styled.div`
@@ -28,6 +30,7 @@ const ServicesWrapper = styled.div`
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: .55rem;
+  padding-top: 1.5rem;
 `
 
 const ServicesItem = styled.div`
@@ -46,8 +49,9 @@ const ServicesItem = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[ `Jereme Lentz `, `Web Development`, `Consulting`, `Photography`, `New Jersey`, `South Jersey`]} />
+    <SEO title="Home" description="Jereme Lentz Web Development and Small Business Consulting" keywords={[ `Jereme Lentz `, `Web Development`, `Consulting`, `Photography`, `New Jersey`, `South Jersey`]} />
     <IndexWrapper>
+      <Image />
       <ServicesWrapper>
         <ServicesItem>
           <h1>Web Development</h1>
@@ -60,9 +64,6 @@ const IndexPage = () => (
         </ServicesItem>
       </ServicesWrapper>
       <h1>Web Developer and Small Business Consultant based in Southern New Jersey</h1>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
       <Link to="/about/">Click here to learn more about me and the services I offer</Link>
     </IndexWrapper>
   </Layout>

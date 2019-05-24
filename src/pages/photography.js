@@ -26,7 +26,7 @@ const PhotographyWrapper = styled.div`
 
 const PhotographyPage = () => (
   <Layout>
-    <SEO title="Photography" />
+    <SEO title="Photography" description="Jereme Lentz Photography" keywords={[`Photography`, `Landscape Photography`, `Street Photography`, `Skateboarding Photography`, `New Jersey Photography`, `South Jersey Photography`]} />
     <PhotographyWrapper>
       <h1>Photography</h1>
       <p>See more of my photos at <a href="https://www.jeremelentzphotography.com/" target="_blank">www.jeremelentzphotography.com</a></p>
