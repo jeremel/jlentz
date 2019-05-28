@@ -9,10 +9,9 @@ const FooterWrapper = styled.div`
   font-size: 1.5rem;
   color: white;
   padding-left: 1.5rem;
-  position: relative;
   bottom: 0;
   width: 100%;
-  height: 9vh;
+  height: 10vh;
 `
 
 class Footer extends Component {

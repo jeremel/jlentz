@@ -30,8 +30,8 @@ const PhotographyPage = () => (
     <PhotographyWrapper>
       <h1>Photography</h1>
       <p>See more of my photos at <a href="https://www.jeremelentzphotography.com/" target="_blank">www.jeremelentzphotography.com</a></p>
-      <img src={image} alt="birds"></img>
-      <p>Please contact me at jerlentz@gmail.com if you would like to inquire about my services or if you just want to learn more about me.</p>
+      <img src={image} alt="Birds at Forsythe"></img>
+      <p>Please contact me at jerlentz@gmail.com or fill out the form below if you would like to inquire about my services or if you just want to learn more about me.</p>
     </PhotographyWrapper>
   </Layout>
 )
