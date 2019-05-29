@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components"
 
 const FormWrapper = styled.div`
-  max-width: 500px;
+  max-width: 31.25rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin: auto;

@@ -49,6 +49,19 @@ const HeaderContainer = styled.div`
       }
     }
   }
+
+  @media(max-width:700px) {
+    justify-content: center;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    ul {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
 `
 
 const Header = ({ siteTitle }) => (

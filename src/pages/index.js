@@ -24,6 +24,11 @@ const IndexWrapper = styled.div`
     font-size: 1.35rem;
     text-align: center;
   }
+
+  h2 {
+    font-size: 1.15rem;
+    text-align: center;
+  }
 `
 
 const IndexPage = () => (
@@ -32,6 +37,7 @@ const IndexPage = () => (
     <IndexWrapper>
       <Image />
       <h1>Web Developer and Small Business Consultant based in Southern New Jersey</h1>
+      <h2>Providing custom tailored solutions that help small businesses and entrepreneurs grow their businesses</h2>
       <Link to="/about/">Click here to learn more about me and the services I offer</Link>
     </IndexWrapper>
   </Layout>

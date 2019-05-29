@@ -9,6 +9,7 @@ import BackgroundImage from "../images/image-20.jpg";
 const WebDevWrapper = styled.div`
   margin: 0;
   padding: 0 8rem;
+  max-width: 75rem;
 
   a {
     color: blue;
@@ -22,7 +23,7 @@ const WebDevWrapper = styled.div`
   }
 
   p {
-    font-size: 1.65rem;
+    font-size: 1.3rem;
   }
 `
 

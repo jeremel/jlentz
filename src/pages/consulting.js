@@ -9,6 +9,7 @@ import ConsultingImage from "../images/image-19.jpg"
 const ConsultingWrapper = styled.div`
   margin: 0;
   padding: 0 8rem;
+  max-width: 75rem;
 
   a {
     color: blue;
@@ -25,7 +26,8 @@ const ConsultingWrapper = styled.div`
   }
 
   p {
-    font-size: 1.65rem;
+    font-size: 1.3rem;
+    margin: 1rem 0;
   }
 
   ul {
@@ -60,18 +62,22 @@ const Consulting = () => (
     <ConsultingWrapper> 
       <h1>Consulting Services</h1>
       <img src={ConsultingImage} alt="Jereme Lentz Consulting" />
-      <p>Providing consulting services for your small to mid-size business including:</p>
+      <p>With over a decade of experience working in small business, I am keenly aware of the necessity for small businesses to make decisions based on sound due research and the importance of executing correctly the first time.</p>
+      <p>I provide consulting services for small businesses and entrepreneurs who want to grow their business in a smart, sustainable way. All of the solutions that I provide are custom tailored to provide the most value possible to your business.</p>
+      <p>See below for a sampling of some of the services that I can help your business with:</p>
       <ul>
-        <li>Accounting systems review</li>
-        <li>Financial Statements Review and Analysis</li>
+        <li>Accounting Systems Review</li>
+        <li>Administrative Controls Analysis</li>
+        <li>Bookkeeping review and training</li>
         <li>Business Strategy</li>
-        <li>Full-scale top to bottom Business Analysis</li>
         <li>Data Analytics</li>
+        <li>Financial Statements Review and Analysis</li>
+        <li>Full-scale top to bottom Business Analysis</li>
         <li>Financing Opportunities</li>
         <li>Market Analysis</li>
-        <li>Administrative Controls Analysis</li>
+        <li>Project Management</li>
       </ul>
-      <p>Contact me at jerlentz@gmail.com for more information</p>
+      <p>Contact me at jerlentz@gmail.com for a consultation</p>
     </ConsultingWrapper>
   </Layout>
 )
