@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Header from "./header"
-import Form from "./Form"
 import Footer from "./Footer"
 import './global.css'
 
@@ -29,7 +28,6 @@ const Layout = ({ children }) => (
         <div>
           <main>{children}</main>
         </div>
-        <Form />
         <Footer />
       </LayoutWrapper>
     )}
