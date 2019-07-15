@@ -6,12 +6,12 @@ const FooterWrapper = styled.div`
   background: salmon;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   color: white;
-  padding-left: 1.5rem;
   bottom: 0;
   width: 100%;
-  height: 10vh;
+  height: 11vh;
 `
 
 class Footer extends Component {

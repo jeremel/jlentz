@@ -11,24 +11,33 @@ import AboutMeImage from "../images/jereme-about-me.jpg"
 const AboutWrapper = styled.div`
   margin: auto;
   padding: 0 8rem;
+  min-height: 72.5vh;
   max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "me content";
 
-  a {
-    color: blue;
-    text-decoration: none;
+  .me {
+    grid-area: me;
+    
+    img {
+      height: 300px;
+      border-radius: 3px;
+    }
   }
 
-  h1 {
-    font-size: 2.65rem;
-  }
+  .content {
+    grid-area: content;
 
-  img {
-    height: 300px;
-    border-radius: 10px;
-  }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
 
-  p {
-    font-size: 1.3rem;
+    p {
+      font-size: 1.3rem;
+    }
   }
 
   @media (max-width: 700px) {
@@ -53,11 +62,15 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" description="About Jereme Lentz" keywords={[`Jereme Lentz`, `About`, `Consulting`, `Websites`, `Web Apps`, `Accounting`, `Web Development`, `Small Business`, `New Jersey`, `South Jersey`, `Philadelphia`, `Philly`]} />
     <AboutWrapper>
-      <h1>About</h1>
-      <img src={AboutMeImage} alt="Jereme Lentz himself" />
-      <p>Hi, my name is Jereme (more commonly spelled Jeremy) and I am a <Link to="/webdevelopment">web developer</Link>, small business <Link to="consulting">consultant</Link>, and <Link to="photography">photographer</Link> based in the Atlantic City area of southern New Jersey.</p> 
-      <p>I have over a decade's worth of small business experience in various roles. I got my start working for my family's small business in the telecommunications engineering and installation industry and for the past couple of years have been working in the financial services industry.</p>
-      <p>Please send me a message at jerlentz@gmail.com if you would like to inquire about my services and learn more about me.</p>
+      <div className="me">
+        <h1>About</h1>
+        <img src={AboutMeImage} alt="Jereme Lentz himself" />
+      </div>
+      <div className="content">
+        <p>Hi, my name is Jereme (more commonly spelled Jeremy) and I am a <Link to="/webdevelopment">web developer</Link>, small business <Link to="consulting">consultant</Link>, and <Link to="photography">photographer</Link> based in the Atlantic City area of southern New Jersey.</p> 
+        <p>I have over a decade's worth of small business experience in various roles. I got my start working for my family's small business in the telecommunications engineering and installation industry and for the past couple of years have been working in the financial services industry.</p>
+        <p>Please send me a message at jerlentz@gmail.com if you would like to inquire about my services and learn more about me.</p>
+      </div>
     </AboutWrapper>
   </Layout>
 )

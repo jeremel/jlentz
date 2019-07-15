@@ -8,13 +8,14 @@ const HeaderWrapper = styled.div`
   padding: .05rem;
   width: 100vw;
   width: 100%;
-  background: whitesmoke;
-  margin-bottom: 1.45rem;
+  margin-bottom: .1rem;
 `
 const HeaderContainer = styled.div`
-  padding: 0 1.5rem;
+  margin: 0;
+  padding: 0 8rem;
   display: flex;
   flex-wrap: wrap;
+  background: #fff;
   justify-content: space-between;
 
   h1 {
