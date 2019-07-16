@@ -23,6 +23,7 @@ const IndexWrapper = styled.div`
   h1 {
     font-size: 1.35rem;
     text-align: center;
+    padding-top: .5rem;
   }
 
   h2 {

@@ -36,6 +36,7 @@ const ConsultingWrapper = styled.div`
     li {
       font-size: 1.25rem;
       padding-bottom: 0.5rem;
+      font-weight: 600;
     }
   }
 
@@ -67,13 +68,11 @@ const Consulting = () => (
       <p>See below for a sampling of some of the services that I can help your business with:</p>
       <ul>
         <li>Accounting Systems Review</li>
-        <li>Administrative Controls Analysis</li>
-        <li>Bookkeeping review and training</li>
-        <li>Business Strategy</li>
+        <li>Bookkeeping review</li>
+        <li>Bookkeeper training</li>
+        <li>Business Planning & Strategy</li>
         <li>Data Analytics</li>
         <li>Financial Statements Review and Analysis</li>
-        <li>Full-scale top to bottom Business Analysis</li>
-        <li>Financing Opportunities</li>
         <li>Market Analysis</li>
         <li>Project Management</li>
       </ul>

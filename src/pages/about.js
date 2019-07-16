@@ -10,8 +10,8 @@ import AboutMeImage from "../images/jereme-about-me.jpg"
 
 const AboutWrapper = styled.div`
   margin: auto;
-  padding: 0 8rem;
-  min-height: 72.5vh;
+  padding: 0.2rem 8rem;
+  min-height: 75vh;
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -23,7 +23,7 @@ const AboutWrapper = styled.div`
     
     img {
       height: 300px;
-      border-radius: 3px;
+      border-radius: 3rpx;
     }
   }
 
@@ -67,9 +67,9 @@ const AboutPage = () => (
         <img src={AboutMeImage} alt="Jereme Lentz himself" />
       </div>
       <div className="content">
-        <p>Hi, my name is Jereme (more commonly spelled Jeremy) and I am a <Link to="/webdevelopment">web developer</Link>, small business <Link to="consulting">consultant</Link>, and <Link to="photography">photographer</Link> based in the Atlantic City area of southern New Jersey.</p> 
+        <p>Hi, my name is Jereme and I am a <Link to="/webdevelopment">web developer</Link>, small business <Link to="consulting">consultant</Link>, and <Link to="photography">photographer</Link> based in the Atlantic City area of southern New Jersey.</p> 
         <p>I have over a decade's worth of small business experience in various roles. I got my start working for my family's small business in the telecommunications engineering and installation industry and for the past couple of years have been working in the financial services industry.</p>
-        <p>Please send me a message at jerlentz@gmail.com if you would like to inquire about my services and learn more about me.</p>
+        <p>Please send me a message at jerlentz@gmail.com if you would like to inquire about my services and learn about how I may be able to assist you and your business.</p>
       </div>
     </AboutWrapper>
   </Layout>
