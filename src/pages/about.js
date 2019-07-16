@@ -23,7 +23,7 @@ const AboutWrapper = styled.div`
     
     img {
       height: 300px;
-      border-radius: 3rpx;
+      border-radius: 4px;
     }
   }
 
