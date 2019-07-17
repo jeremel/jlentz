@@ -52,15 +52,26 @@ const HeaderContainer = styled.div`
   }
 
   @media(max-width:700px) {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4rem;
 
     h1 {
+      padding: 0;
+      margin: 0;
       font-size: 3rem;
+      text-align: center;
     }
 
     ul {
       font-size: 1.5rem;
-      text-align: center;
+      padding: 0.5rem 0;
+
+      li {
+        padding: 0 1.5rem 0 0;
+        margin: auto;
+      }
     }
   }
 `
