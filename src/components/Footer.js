@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React, { Component } from 'react';
 import styled from "styled-components"
 
@@ -12,13 +13,18 @@ const FooterWrapper = styled.div`
   bottom: 0;
   width: 100%;
   height: 11vh;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 `
 
 class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        © {new Date().getFullYear()}/Jereme Lentz
+        <Link to="/">© {new Date().getFullYear()}/Jereme Lentz</Link>
       </FooterWrapper>
     );
   }

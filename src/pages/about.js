@@ -23,7 +23,7 @@ const AboutWrapper = styled.div`
     
     img {
       height: 300px;
-      border-radius: 4px;
+      border-radius: 5px;
     }
   }
 
@@ -32,7 +32,12 @@ const AboutWrapper = styled.div`
 
     a {
       color: blue;
-      text-decoration: none;
+      text-decoration: underline;
+      text-decoration-color: gold;
+    }
+
+    a:hover {
+      color: rgba(34, 167, 240, 1);
     }
 
     p {
@@ -42,18 +47,25 @@ const AboutWrapper = styled.div`
 
   @media (max-width: 700px) {
     padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    h1 {
-      text-align: center;
+    .me {
+      h1 {
+        text-align: center;
+      }
+
+      img {
+        border-radius: 
+      }
     }
 
-    img {
-      padding-left: 6.5rem;
-    }
-
-    p {
-      padding: 0 1.5rem;
-      font-size: 1.25rem;
+    .content {
+      p {
+        padding: 0 1.5rem;
+        font-size: 1.25rem;
+      }
     }
   }
 `
@@ -63,7 +75,7 @@ const AboutPage = () => (
     <SEO title="About" description="About Jereme Lentz" keywords={[`Jereme Lentz`, `About`, `Consulting`, `Websites`, `Web Apps`, `Accounting`, `Web Development`, `Small Business`, `New Jersey`, `South Jersey`, `Philadelphia`, `Philly`]} />
     <AboutWrapper>
       <div className="me">
-        <h1>About</h1>
+        <h1>About Me</h1>
         <img src={AboutMeImage} alt="Jereme Lentz himself" />
       </div>
       <div className="content">

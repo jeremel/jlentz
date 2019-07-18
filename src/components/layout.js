@@ -6,6 +6,7 @@ import Header from "./header"
 import Footer from "./Footer"
 import './global.css'
 
+
 const LayoutWrapper = styled.div`
   min-height: 100vh;
   position: relative;

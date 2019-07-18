@@ -46,7 +46,7 @@ const HeaderContainer = styled.div`
       }
 
       a:hover {
-        color: blue;
+        color: rgba(34, 167, 240, 1);
       }
     }
   }

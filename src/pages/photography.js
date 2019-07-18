@@ -18,8 +18,13 @@ const PhotographyWrapper = styled.div`
     font-size: 1.25rem;
 
     a {
-      text-decoration: none;
-      color: slategrey;
+      text-decoration: underline;
+      text-decoration-color: gold;
+      color: blue;
+    }
+
+    a:hover {
+      color: rgba(34, 167, 240, 1);
     }
   }
 `
